@@ -27,7 +27,7 @@ int main()
         반환값 : target 값의 개수
         
         count_if()와의 차이 : count_if는 직접 조건을 수정할 수 있음, count는 조건이 arr[i] == target, 같은 지만 비교할 수 있음
-                             (ex. 0이상 6이하의 정수를 세라, " "의 개수를 세라, etc)
+                             (ex. 0이상 6이하의 정수를 세라, "abaedabcdabc"에서 "abc"의 개수를 세라, etc)
     */
     cnt = count(vec.begin(), vec.end(), target);
 
