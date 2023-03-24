@@ -6,6 +6,7 @@ using namespace std;
 int N;  // the number of sticks
 stack<int> stck;  // container of sticks
 
+// Count viewable sticks
 int Count()
 {
     // max: refers to heighest stick among currently checked sticks
