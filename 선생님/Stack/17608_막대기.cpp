@@ -14,7 +14,7 @@ int Count()
     
     // check all the sticks, starting from right end to left
     while (!stck.empty()) {
-        if (stck.top() > max) {  // if found stick higher than previous heighest stick,
+        if (stck.top() > max) {  // if find stick higher than previous heighest stick,
             ret++;  // count it
             max = stck.top();  // replace the heighest stick
         }
