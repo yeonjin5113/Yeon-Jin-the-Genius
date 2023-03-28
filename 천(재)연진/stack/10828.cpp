@@ -1,4 +1,4 @@
-//20
+//20m
 
 #include <iostream>
 #include <stack>
