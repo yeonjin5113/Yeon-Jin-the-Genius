@@ -1,0 +1,28 @@
+#include <iostream>
+#include <array>
+#include <algorithm>
+
+using namespace std;
+
+int main()
+{
+    int N, M;       //N : 바구니의 수, M : 공을 넣는 횟수 
+    int i, j, k;    // i번 바구니부터 j번 바구니까지 k번 공을 넣음
+    array<int, 100> arr;
+    
+    cin >> N >> M;
+    fill(arr.begin(), arr.end(), 0);
+    
+    for (int n=1; n<=M; n++){
+        cin >> i >> j >> k;
+        for (; i<=j; i++){
+            arr[i] = k;   
+        }
+    }
+    
+    for(int i=1; i<=N; i++){
+        cout << arr[i] << " ";
+    }
+    
+    
+}
